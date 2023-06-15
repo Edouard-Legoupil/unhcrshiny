@@ -1,0 +1,6 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^docs$
+^app\.R$
+^rsconnect$
+^LICENSE\.md$
