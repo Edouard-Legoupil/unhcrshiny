@@ -2,7 +2,7 @@
 
 A branded template for shiny dashboard
  
-![Screenshot](screen.png)
+![](https://raw.githubusercontent.com/Edouard-Legoupil/unhcrshiny/main/man/screen.png)
 
 ## Installation
 
