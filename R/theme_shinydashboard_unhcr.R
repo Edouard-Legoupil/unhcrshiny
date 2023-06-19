@@ -50,11 +50,13 @@ theme_shinydashboard_unhcr <- function() {
   appFontFamily = "Nunito Sans"
   appFontColor = "#000"
   primaryFontColor = "#000"
+  #bodyBackColor = "#f5f5f5"
+  bodyBackColor = "white"
+
   infoFontColor = "#000"
   successFontColor = "#000"
   warningFontColor = "#000"
   dangerFontColor = "#000"
-  bodyBackColor = "#f5f5f5"
 
   #header
   logoBackColor = primary
@@ -69,7 +71,8 @@ theme_shinydashboard_unhcr <- function() {
 
   #sidebar
   # sidebarBackColor = "#343a40"
-  sidebarBackColor = "#EDEDED"
+  #sidebarBackColor = "#EDEDED"
+  sidebarBackColor = "#cccccc"
 
   sidebarPadding = 0
   sidebarMenuBackColor = "transparent"
@@ -108,12 +111,17 @@ theme_shinydashboard_unhcr <- function() {
   boxShadowColor = paste0(primary, "30")
   boxTitleSize = 24
   boxDefaultColor = "#FFF"
-  boxPrimaryColor = "#FFF"
-  boxInfoColor = "#FFF"
-  boxSuccessColor = "#FFF"
-  boxWarningColor = "#FFF"
-  boxDangerColor = "#FFF"
+  ## Need specific for bootstap...  unhcrthemes::display_unhcr_all()
+  #boxPrimaryColor = "#FFF"
+  boxPrimaryColor = "#cccccc"  ## same as sidebar
+  #boxPrimaryColor = "#666666" ##  unhcrthemes::unhcr_pal(1, "pal_grey")
 
+  boxInfoColor = "#18375F"    ##   unhcrthemes::unhcr_pal(1, "pal_navy")
+  boxSuccessColor = "#00B398"  ##  unhcrthemes::unhcr_pal(1, "pal_green")
+  boxWarningColor = "#FAEB00" ##  unhcrthemes::unhcr_pal(1, "pal_yellow")
+  boxDangerColor = "#EF4A60" ##  unhcrthemes::unhcr_pal(1, "pal_red")
+
+  ### tabBox
   tabBoxTabColor = "white"
   tabBoxTabTextSize = 12
   tabBoxTabTextColor = "#696969"
@@ -143,7 +151,6 @@ theme_shinydashboard_unhcr <- function() {
    textboxBorderColorSelect = "rgb(200,200,200)"
    textboxHeight = "auto"
    textboxPadding = "6px 12px"
-
 
   ### tables
    tableBackColor = NA
