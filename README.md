@@ -17,7 +17,7 @@ pak::pkg_install("edouard-legoupil/unhcrshiny")
 
 Simply call the function `theme_shinydashboard_unhcr()` within the  `dashboardBody` of your app.
 
-If you want to quickly create a shinyDashboard, go and check te package [{graveler}](https://edouard-legoupil.github.io/graveler/)
+If you want to quickly create a shiny Dashboard, go and check the package [{graveler}](https://edouard-legoupil.github.io/graveler/)
 
 You can also look at: [ShinyDashboard Get Started](https://rstudio.github.io/shinydashboard/get_started.html) and apply [unhcrthemes](https://vidonne.github.io/unhcrthemes/articles/intro-unhcrthemes.html) on your plots!
 
