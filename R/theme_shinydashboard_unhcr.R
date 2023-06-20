@@ -71,8 +71,8 @@ theme_shinydashboard_unhcr <- function() {
 
   #sidebar
   # sidebarBackColor = "#343a40"
-  #sidebarBackColor = "#EDEDED"
-  sidebarBackColor = "#cccccc"
+  sidebarBackColor = "#EDEDED"
+  #sidebarBackColor = "#cccccc"
 
   sidebarPadding = 0
   sidebarMenuBackColor = "transparent"
